@@ -1,0 +1,24 @@
+.keyContainer {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ border: 0.1rem solid #808080;
+}
+
+.ripple {
+ color: #fff;
+ font-size: 1.5rem;
+ cursor: pointer;
+ background-position: center;
+ transition: 0.5s;
+}
+
+.ripple:hover {
+ background: #353535 radial-gradient(circle, transparent 1%, #353535 1%) center/15000%;
+}
+
+.ripple:active {
+ background-color: #727374;
+ background-size: 100%;
+ transition: 0s;
+}
